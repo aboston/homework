@@ -1,9 +1,26 @@
-h1 {color: red;}
+h1 {
+  color: red;
+}
 
-#firstlistitem {color: green;}
+#firstlistitem {
+  color: green;
+}
 
-.dateyear {font-style: italic;
-font-weight: bold;}
+.dateyear {
+  font-style: italic;
+  font-weight: bold;
+}
 
-body {font: 44px/20px,
-sans-serif;}
+/*body {
+  font-family: Verdana, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}*/
+
+body {
+  font: 16px/1.5 Verdana, sans-serif;
+}
+
+section blockquote {
+  background-color: gray;
+}
