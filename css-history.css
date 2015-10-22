@@ -1,11 +1,14 @@
+/*tag selector*/
 h1 {
   color: red;
 }
 
+/*id selector*/
 #firstlistitem {
   color: green;
 }
 
+/*class selector*/
 .dateyear {
   font-style: italic;
   font-weight: bold;
@@ -21,6 +24,20 @@ body {
   font: 16px/1.5 Arial, sans-serif;
 }
 
-section blockquote {
+/*section blockquote {
+  background-color: gray;
+}*/
+
+/*child selector*/
+.info > li {
+  color: pink;
+}
+
+/*descendent selector
+.info li {
+  color: pink;
+}*/
+
+ul blockquote {
   background-color: gray;
 }
